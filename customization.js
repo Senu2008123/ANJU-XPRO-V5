@@ -20,7 +20,7 @@ module.exports = {
 ┗━━━━━━━━━━━━━━━
 ┏━━━━❮📝 ᴅᴇᴛᴇʟᴇꜱ 📝❯━━━
 ┃🗣️ 𝚄𝚜𝚎𝚛 : ${pushname}
-┃🤖 𝙱𝚘𝚝 : © 𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝗑ᴾᴿᴼ V${packageJson.version}
+┃🤖 𝙱𝚘𝚝 : © SENURA BOTZ V${packageJson.version}
 ┃📜 𝙿𝚛𝚎𝚏𝚒𝚡 : ${config.PREFIX}
 ┃📚 𝚅𝚎𝚛𝚜𝚒𝚘𝚗 : ${packageJson.version}
 ┃📝 𝙿𝚕𝚊𝚝𝚏𝚘𝚛𝚖 : ${os.platform()}
@@ -37,7 +37,7 @@ module.exports = {
   //======================download============================
   TIKTOK: function (title, author, q) {
     return `
-🎟️ *QUEEN ANJU-MD TIKTOK DOWNLOADER* 🎟️
+🎟️ *> SENURA LAKSHAN TIKTOK DOWNLOADER* 🎟️
 
 🔢 *Please reply with the number you want to select:*
 
@@ -48,7 +48,7 @@ URL    * ${q}
   },
   FACEBOOK: function (title, q) {
     return `
-💢 QUEEN ANJU-MD FB DOWNLOADER 💢
+💢 SENURA LAKSHAN FB DOWNLOADER 💢
     
 🎞 TITLE 🎞 ${title}
 
@@ -65,11 +65,10 @@ Twitter URL: ${q}
         `.trim();
   },
   //=================main==================================
-  ALIVEIMG: "./src/media/LOGOS/alive.jpg",
+  ALIVEIMG: "https://raw.githubusercontent.com/Senu2008123/Bot-help/refs/heads/main/WhatsApp%20Image%202025-06-19%20at%2001.02.53.jpeg",
   ALIVEVOICE: "./src/media/Auto_voice/alive.aac",
   ALIVEMSG: function (hostname, config, pushname, runtime) {
     return `
-🧚‍♂️⃟🩵 𝐐𝐔𝐄𝐄𝐍 𝐀𝐍𝐉𝐔 𝐀𝐋𝐈𝐕𝐄 𝐒𝐓𝐀𝐓𝐔𝐒 🧚‍♂️⃟🩵
 
 ✘◍ 𝗜'𝗺 𝗔𝗹𝗶𝘃𝗲, 𝗧𝗵𝗮𝗻𝗸𝘀 𝗳𝗼𝗿 𝗔𝘀𝗸𝗶𝗻𝗴!
 
@@ -85,7 +84,7 @@ Twitter URL: ${q}
 ┗━━━━━━━━━━━━━━━
 ┏━━━━❮📝 𝗦𝘁𝗮𝘁𝘂𝘀 𝗗𝗲𝘁𝗮𝗶𝗹𝘀 📝❯━━━
 ┃🗣️ 𝚄𝚜𝚎𝚛 : ${pushname}
-┃🤖 𝙱𝚘𝚝 : © 𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝗑ᴾᴿᴼ V${packageJson.version}
+┃🤖 𝙱𝚘𝚝 : © SENURA LAKSHAN V${packageJson.version}
 ┃📜 𝙿𝚛𝚎𝚏𝚒𝚡 : ${config.PREFIX}
 ┃📚 𝚅𝚎𝚛𝚜𝚒𝚘𝚗 : ${packageJson.version}
 ┃📝 𝙿𝚕𝚊𝚝𝚏𝚘𝚛𝚖 : ${hostname}
@@ -97,7 +96,7 @@ Twitter URL: ${q}
     )}MB / ${Math.round(require("os").totalmem / 1024 / 1024)}MB
 ┗━━━━━━━━━━━━━━━
 
-💬 ᴇɴᴏʏ ᴛʜᴇ 𝗯𝗼𝘁 ᴏ𝗳 𝚚𝚞𝚎𝚎𝚗 𝗮𝗻𝗷𝘂! ✨
+💬 ᴇɴᴏʏ ᴛʜᴇ 𝗯𝗼𝘁 ᴏ𝗳 senu! ✨
         `.trim();
   },
   //====================movie======================================
@@ -109,7 +108,7 @@ Twitter URL: ${q}
   },
   SINHALASUB: function (movieData) {
     return `
-🎬 *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
+🎬 *『 SENU Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
 
 ✨ *𝙼𝚘𝚟𝚒𝚎 𝙽𝚊𝚖𝚎:* ${movieData.title}
 ⭐ *𝙸𝙼𝙳𝙱 𝚁𝚊𝚝𝚒𝚗𝚐:* ${movieData.rating?.value || "𝙽/𝙰"} ★
@@ -120,7 +119,7 @@ Twitter URL: ${q}
   },
   CINESUBZ: function (title, metadata, rating) {
     return `
-🎬 *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
+🎬 *『 SENU Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
 
 ✨ *𝙼𝚘𝚟𝚒𝚎 𝙽𝚊𝚖𝚎:* 𝘾𝙝𝙚𝙘𝙠 𝙞𝙩 𝙤𝙪𝙩 → ${title}
        
@@ -133,7 +132,7 @@ Twitter URL: ${q}
   },
   CINETVSHOW: function (movieResponse) {
     return `
-🎬 *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
+🎬 *『 SENU Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
 
 📺 *𝚃𝚅 𝚂𝚑𝚘𝚠:* ${movieResponse.episodeInfo?.title || "𝙽/𝙰"}
 🎞️ *𝙴𝚙𝚒𝚜𝚘𝚍𝚎 𝚃𝚒𝚝𝚕𝚎:* ${movieResponse.episodeInfo?.episodeTitle || "𝙽/𝙰"}
@@ -142,7 +141,7 @@ Twitter URL: ${q}
   },
   CINETVSHOWALLDL: function (movieData) {
     return `
-🎬 *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
+🎬 *『 SENU Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
 
 ✨ *𝙼𝚘𝚟𝚒𝚎 𝚃𝚒𝚝𝚕𝚎:* ${movieData.data.title}
 📆 *𝚁𝚎𝚕𝚎𝚊𝚜𝚎 𝙳𝚊𝚝𝚎:* ${movieData.data.releaseDate}
@@ -151,7 +150,7 @@ Twitter URL: ${q}
   },
   SIMNHALAMOVIE: function (title) {
     return `
-🎬 *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
+🎬 *『 SENU Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
 
 🎞️ *𝚃𝚒𝚝𝚕𝚎:* ${title}  
         `.trim();
@@ -167,7 +166,7 @@ Twitter URL: ${q}
   },
   ANIMEMOVIE: function (title, releaseDate, country, duration) {
     return `
-🎬 *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
+🎬 *『 SENU Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
 
 ✨ ${title} 
 📅 𝗥𝗲𝗹𝗲𝗮𝘀𝗲 𝗗𝗮𝘁𝗲:${releaseDate}  
@@ -177,7 +176,7 @@ Twitter URL: ${q}
   },
   BAISCOMOVIE: function (title, year, rating, duration) {
     return `
-🎬 *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
+🎬 *『 SENU Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
 
 🎞️ *𝚃𝚒𝚝𝚕𝚎:*  ${title} 
 📅 𝗥𝗲𝗹𝗲𝗮𝘀𝗲 𝗗𝗮𝘁𝗲:${year}  
@@ -187,7 +186,7 @@ Twitter URL: ${q}
   },
   ADULTMOVIE: function (title, rating, description) {
     return `
-🎬 *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
+🎬 *『 SENU Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
 ──────────────────
 ✨ *Title:* ${title}
 ⭐ *Rating:* ${rating}
@@ -200,7 +199,7 @@ ${description}
   },
   ANIMOMOVIE: function (movieData) {
     return `
-🎬 *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿  
+🎬 *『 SENU Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿  
         
 ✨ ${movieData.title}  
 ⭐ Description:${movieData.description} 
@@ -210,7 +209,7 @@ ${description}
   },
   FILMPOMOVIE: function (title, rating, year, duration) {
     return `
-🎬 *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿  
+🎬 *『 SENU Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿  
 
 ✨ *𝙼𝚘𝚟𝚒𝚎 𝙽𝚊𝚖𝚎:* ${title}
 ⭐ *𝙸𝙼𝙳𝙱 𝚁𝚊𝚝𝚒𝚗𝚐:* ${rating}
@@ -231,8 +230,8 @@ ${description}
 • 📅 *Uploaded On:* ${data.ago}
 • 🔗 *Link:* ${data.url}
           
-🎧 Enjoy your music with Queen Anju Bot  
-❤️ Created by Janith Rashmika
+🎧 Enjoy your music with Senura  
+❤️ Created by Senura Lakshan
         `.trim();
   },
   YTMP3: function (data) {
@@ -245,7 +244,7 @@ ${description}
 ➥ *Uploaded On:* ${data.ago} 
 ➥ *Link:* ${data.url}
 
-🎬 *Enjoy the video brought to you by Queen Anju Bot!* 
+🎬 *Enjoy the video brought to you SENURA!* 
         `.trim();
   },
   VIDEO: function (data) {
@@ -260,8 +259,8 @@ ${description}
 • 📅 *Uploaded On:* ${data.ago}
 • 🔗 *Link:* ${data.url}
           
-🎧 Enjoy your music with Queen Anju Bot  
-❤️ Created by Janith Rashmika
+🎧 Enjoy your music with SENURA  
+❤️ Created by Senura Lakshan
         `.trim();
   },
   YTMP4: function (data) {
@@ -274,7 +273,7 @@ ${description}
 ➥ *Uploaded On:* ${data.ago} 
 ➥ *Link:* ${data.url} 
 
-🎬 *Enjoy the video brought to you by Queen Anju Bot!* 
+🎬 *Enjoy the video brought to you by SENURA LAKSHAN!* 
         `.trim();
   },
 };
