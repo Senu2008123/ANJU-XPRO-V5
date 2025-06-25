@@ -45,12 +45,12 @@ module.exports = {
     process.env.SESSION_ID ||
     "session id",
   BOT_NUMBER:
-    process.env.BOT_NUMBER || "your account crated number",
+    process.env.BOT_NUMBER || "94785203890",
   PASSWORD: 
-    process.env.PASSWORD || "your password",
+    process.env.PASSWORD || "@Senura123",
   SUDO: process.env.SUDO
     ? process.env.SUDO.split(",")
-    : ["94717775628", "94758775628"],
+    : ["94725203890", "94769714218"],
   PORT: process.env.PORT || "3000",
   SESSION_DIR: process.env.SESSION_DIR || "sess",
 };
